@@ -1,0 +1,188 @@
+body{
+    margin:0;
+    background-color: rgb(55, 71, 92);
+}
+
+/* Nav Bar */
+
+nav{
+    background-color: rgb(90, 93, 109);
+}
+
+ul.topNav{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.logo{
+    display: flex;
+    padding-right: 0;
+}
+
+div.topNavButton{
+    display: flex;
+    align-items: flex-start;
+}
+
+li.topNavButton{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    line-height: 3em;
+    height: 100%;
+    padding: 0.5em;
+    border-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+li.topNavButton a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+li.topNavButton a:hover{
+    background-color: rgba(133, 145, 170, 0.726);
+    color: whitesmoke;
+}
+
+img.homepagelogo{
+    height: 4em;
+}
+
+/* Body */
+
+.parallax1, .parallax2, .parallax3, .parallax4{
+    background-image: url("../images/GDC\ Logo.png");
+    background-color: azure;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+}
+
+.parallax2{
+    background-image: url("../images/IMG_1315.jpg");
+}
+
+.parallax3{
+    background-image: url("../images/gamePreview1.png");
+}
+
+.parallax4{
+    background-image: url("../images/theTeam.jpg");
+}
+
+#dropdownTransition{
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+    -webkit-transition: all 1s ease-in-out .2s;
+    -moz-transition: all 1s ease-in-out .2s;
+    -ms-transition: all 1s ease-in-out .2s;
+    -o-transition: all 1s ease-in-out .2s;
+    transition: all 1s ease-in-out .2s;
+}
+
+#dropdownTransition:hover{
+    height: 400px;
+}
+
+.text1, .text2, .text3, .text4, .text5{
+    background-color: rgba(0,0,0,0.1);
+    height: 150%;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: antiquewhite;
+}
+
+.text2 p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text2 img{
+    display: flex;
+    padding-right: 2em;
+}
+
+.text2 p{
+    margin: 0;
+}
+
+.text4 a{
+    color: teal;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    font-size: 1.5em;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 25px;
+    font-size: 1.25em;
+}
+
+h3{
+    font-size: 1.25em;
+    margin-bottom: 0;
+}
+
+p{
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+.cycle-slideshow{
+    display: flex;
+}
+
+.teamGallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamMember{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.teamMember img{
+    border: 1em groove rgba(5, 5, 32, 0.575);
+}
+
+/* Footer */
+
+.footerLogo{
+    display: flex;
+    padding-top: 3em;
+    justify-content: center;
+}
+
+ul.socials{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+li.socials{
+    display: flex;
+    padding: 0;
+    padding-top: 1em;
+    width: 5%;
+}
